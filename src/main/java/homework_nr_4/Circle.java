@@ -13,7 +13,7 @@ class Circle {
     }
 
     public static void main(String[] args) {
-        double radius = 7;
+        double radius = 9;
         Circle circle = new Circle(radius);
         circle.calculateArea();
     }
