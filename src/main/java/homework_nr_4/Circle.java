@@ -9,7 +9,7 @@ class Circle {
 
     public void calculateArea() {
         double area = Math.PI * Math.pow(radius, 2);
-        System.out.println("Площадь круга: " + area);
+        System.out.println("Area of the circle: " + area);
     }
 
     public static void main(String[] args) {
@@ -19,12 +19,12 @@ class Circle {
     }
 }
 class TemperatureConverter {
-    public static double toCelsius(double Фаренгейта) {
-        return Фаренгейта / 2;
+    public static double toCelsius(double fahrenheit) {
+        return fahrenheit / 2;
     }
 
-    public static double toFahrenheit(double Цельсия) {
-        return Цельсия * 2;
+    public static double toFahrenheit(double celsius) {
+        return celsius * 2;
     }
 
     public static void main(String[] args) {
@@ -34,7 +34,7 @@ class TemperatureConverter {
         double convertedToCelsius = toCelsius(fahrenheit);
         double convertedToFahrenheit = toFahrenheit(celsius);
 
-        System.out.println(fahrenheit + " градусов Фаренгейта = " + convertedToCelsius + " градусов Цельсия");
-        System.out.println(celsius + " градусов Цельсия = " + convertedToFahrenheit + " градусов Фаренгейта");
+        System.out.println(fahrenheit + " degrees Fahrenheit = " + convertedToCelsius + " degrees Celsius");
+        System.out.println(celsius + " degrees Celsius = " + convertedToFahrenheit + " degrees Fahrenheit");
     }
 }
