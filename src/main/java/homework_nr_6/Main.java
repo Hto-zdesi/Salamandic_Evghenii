@@ -6,7 +6,7 @@ public class Main {
         Employee employee = new Employee("Evghenii Salamandic", 24, "IT");
 
         // Invoice
-        Invoice invoice = new Invoice("Lenovo IdeaPad Gaming", "Laptop", 2, 17000.0);
+        Invoice invoice = new Invoice("Lenovo IdeaPad Gaming", "Laptop", 2, 17000.00);
 
         // Date
         Date date = new Date(5, 4, 1999);
